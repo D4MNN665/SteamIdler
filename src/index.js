@@ -5,8 +5,6 @@ const consoleHelper = require('./helpers/console');
 const steamClient = require("./steam-client");
 const jwt = require('./helpers/jwt');
 
-const port = process.env.PORT || 10000;
-
 
 consoleHelper.boot();
 
